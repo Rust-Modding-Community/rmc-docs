@@ -88,8 +88,8 @@ private void HelloCommand(BasePlayer player, string command, string[] args)
 #endregion
 
 #region Helpers
-<strong>private void SendMessage(BasePlayer player, string message)
-</strong>{
+private void SendMessage(BasePlayer player, string message)
+{
     player.ChatMessage(message);
 }
 #endregion
