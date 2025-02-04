@@ -71,7 +71,8 @@ For larger plugins, use `#region` and `#endregion` to separate different section
 
 ✅ **Example:**
 
-<pre class="language-csharp"><code class="lang-csharp">#region Hooks
+```csharp
+#region Hooks
 private void OnPlayerInit(BasePlayer player)
 {
     Puts($"{player.displayName} joined.");
@@ -92,7 +93,7 @@ private void HelloCommand(BasePlayer player, string command, string[] args)
     player.ChatMessage(message);
 }
 #endregion
-</code></pre>
+```
 
 Most modern IDEs allow you to **collapse/expand regions**, making it easier to navigate large code files.
 
