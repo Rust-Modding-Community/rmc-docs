@@ -10,8 +10,9 @@ Keep similar functionality in the same section of your file. For example, group 
 
 ❌ **Bad Example:**
 
-<pre class="language-csharp"><code class="lang-csharp"><strong>private void OnPlayerConnected(BasePlayer player)
-</strong>{
+```csharp
+private void OnPlayerConnected(BasePlayer player)
+{
     Puts($"{player.displayName} joined.");
 }
 
@@ -31,7 +32,7 @@ private void HelloCommand(BasePlayer player, string command, string[] args)
 {
     player.ChatMessage("Hello, " + player.displayName + "!");
 }
-</code></pre>
+```
 
 ✅ **Good Example:**
 
