@@ -1,19 +1,34 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+# facebook:
+#   label: Facebook
+#   permalink: /facebook
+#   description: Facebook tag description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+# hello:
+#   label: Hello
+#   permalink: /hello
+#   description: Hello tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+# docusaurus:
+#   label: Docusaurus
+#   permalink: /docusaurus
+#   description: Docusaurus tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+# hola:
+#   label: Hola
+#   permalink: /hola
+#   description: Hola tag description
+
+facepunch:
+  label: Facepunch
+  permalink: /facepunch
+  description: Changes made by Facepunch to the game Rust.
+
+news:
+  label: News
+  permalink: /news
+  description: Rust Modding Community News.
+
+tips:
+  label: Tips
+  permalink: /tips
+  description: Tips for Rust Modding.

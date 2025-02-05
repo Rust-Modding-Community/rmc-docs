@@ -9,7 +9,9 @@ Rust Modding Community is a public source of information for modding rust.
 Operated by Cobalt Studios.
 
 # Welcome to Cobalt Studios Docs
+
 **Your ultimate resource for Rust modding and plugin development!**  
+
 Whether you're just starting out or you're an experienced developer, Cobalt Studios provides the tools, guides, and best practices to help you create powerful Rust plugins.  
 ## What You'll Find Here
 - **Getting Started** – Learn the basics of Rust modding, set up your development environment, and write your first plugin.  
