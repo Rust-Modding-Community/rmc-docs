@@ -10,8 +10,9 @@ Keep similar functionality in the same section of your file. For example, group 
 
 ❌ **Bad Example:**
 
-<pre class="language-csharp"><code class="lang-csharp"><strong>private void OnPlayerConnected(BasePlayer player)
-</strong>{
+```csharp
+private void OnPlayerConnected(BasePlayer player)
+{
     Puts($"{player.displayName} joined.");
 }
 
@@ -31,7 +32,7 @@ private void HelloCommand(BasePlayer player, string command, string[] args)
 {
     player.ChatMessage("Hello, " + player.displayName + "!");
 }
-</code></pre>
+```
 
 ✅ **Good Example:**
 
@@ -70,7 +71,8 @@ For larger plugins, use `#region` and `#endregion` to separate different section
 
 ✅ **Example:**
 
-<pre class="language-csharp"><code class="lang-csharp">#region Hooks
+```csharp
+#region Hooks
 private void OnPlayerInit(BasePlayer player)
 {
     Puts($"{player.displayName} joined.");
@@ -86,12 +88,12 @@ private void HelloCommand(BasePlayer player, string command, string[] args)
 #endregion
 
 #region Helpers
-<strong>private void SendMessage(BasePlayer player, string message)
-</strong>{
+private void SendMessage(BasePlayer player, string message)
+{
     player.ChatMessage(message);
 }
 #endregion
-</code></pre>
+```
 
 Most modern IDEs allow you to **collapse/expand regions**, making it easier to navigate large code files.
 
