@@ -1,6 +1,5 @@
 ---
-description: A step-by-step guide to choosing a modding framework, setting up yourdevelopment environment, and creating your first Rust plugin.
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # Getting Started
