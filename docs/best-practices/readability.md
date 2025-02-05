@@ -67,7 +67,7 @@ private void MyHelperFunction()
 
 ***
 
-### **Use `#region` to Organize Large Files**
+### Use `#region` to Organize Large Files
 
 For larger plugins, use `#region` and `#endregion` to separate different sections and improve navigation.
 
@@ -139,7 +139,7 @@ Reducing unnecessary nesting makes the logic **clearer and easier to follow**.
 
 ***
 
-### **Use Descriptive Names for Variables and Methods**
+### Use Descriptive Names for Variables and Methods
 
 Names should describe **what the function or variable does**, not just its type or purpose.
 
@@ -167,7 +167,7 @@ This makes it much easier to understand **what the code does at a glance**.
 
 ***
 
-### **Keep Functions Short and Focused**
+### Keep Functions Short and Focused
 
 Each function should do **one thing well**. If a function is too long or hard to read, break it into smaller helper functions. This will allow you to keep your code readable while not losing functionality.
 
