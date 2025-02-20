@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Getting Started with Rust Modding
 
-Looking to create your first Rust plugin? Already making plugins but want to refine your skills and improve performance? You’re in the right place!
+Looking to create your first Rust plugin? Already making plugins but want to refine your skills and improve performance? You're in the right place!
 
 Rust modding is primarily done using one of two frameworks: **Carbon** or **Oxide**. These frameworks provide the tools and API access needed to extend and modify the game.
 
@@ -31,7 +31,7 @@ To get started with creating a plugin, you need an **IDE (Integrated Development
 
 #### Setting Up Your Development Environment
 
-Before you start coding, you’ll need to set up your environment based on the modding framework you’re using:
+Before you start coding, you'll need to set up your environment based on the modding framework you're using:
 
 * **Oxide/uMod Setup Guide**
 * **Carbon Setup Guide** _(Includes information on enabling Developer Mode and importing the required targets file.)_
@@ -40,7 +40,7 @@ Before you start coding, you’ll need to set up your environment based on the m
 
 ### Writing Your First Plugin
 
-Here’s a simple **Hello World** plugin that logs a message to RCon/Console when the plugin initializes.
+Here's a simple **Hello World** plugin that logs a message to RCon/Console when the plugin initializes.
 
 ```csharp
 namespace Oxide.Plugins;

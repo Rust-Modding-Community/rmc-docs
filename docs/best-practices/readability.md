@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Plugin readability is something you should focus on the the start. This guide will help you find your footing and what works for you.
 ---
 
 # Readability

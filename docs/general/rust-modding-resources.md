@@ -32,7 +32,7 @@ sidebar_position: 2
 
 📌 **Link:** [https://github.com/icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy)
 
-🛠️ A powerful .NET decompiler for exploring Rust’s DLL files.
+🛠️ A powerful .NET decompiler for exploring Rust's DLL files.
 
 ***
 
