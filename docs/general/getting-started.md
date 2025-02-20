@@ -23,6 +23,8 @@ In most cases, plugins written for Oxide will work on both **Oxide** and **Carbo
 
 Unless you're developing a **private plugin** exclusively for a Carbon server, it's recommended to write your plugins using Oxide to maximize compatibility across different servers.
 
+However, Carbon has more tools built for developers like the profiler, better error logging, and pre-made targets files for IDEs. It is common to developer using Carbon, but writing your plugin with compatibility with Oxide.
+
 ***
 
 ### First Steps
