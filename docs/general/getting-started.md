@@ -17,13 +17,13 @@ Rust modding is primarily done using one of two frameworks: **Carbon** or **Oxid
 * [**Oxide (uMod)**](https://docs.oxidemod.com) – The most widely used modding framework, with extensive documentation and a vast library of existing plugins to learn from.
 * [**Carbon**](https://docs.carbonmod.gg/docs) – A newer framework that offers a fresh approach to modding, featuring alternative tools and optimizations.
 
-In most cases, plugins written for Oxide will work on both **Oxide** and **Carbon** servers. However, **Carbon-specific plugins** will **not** run on Oxide servers.
+In most cases, plugins written for **Oxide** will work on both **Oxide** and **Carbon** servers. However, **Carbon-specific plugins** will **not** run on **Oxide** servers.
 
 #### Best Practice: Use Oxide for Compatibility
 
-Unless you're developing a **private plugin** exclusively for a Carbon server, it's recommended to write your plugins using Oxide to maximize compatibility across different servers.
+Unless you're developing a **private plugin** exclusively for a **Carbon** server, it's recommended to write your plugins using **Oxide** to maximize compatibility across different servers.
 
-However, Carbon has more tools built for developers like the profiler, better error logging, and pre-made targets files for IDEs. It is common to developer using Carbon, but writing your plugin with compatibility with Oxide.
+That said, **Carbon** provides additional tools for developers, such as a profiler, improved error logging, and pre-made target files for IDEs. Many developers use **Carbon** for its enhanced development environment while still ensuring their plugins remain compatible with **Oxide**.
 
 ***
 
