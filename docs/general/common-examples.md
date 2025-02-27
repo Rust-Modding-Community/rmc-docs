@@ -1,6 +1,9 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 description: This guide contains common things you will need to do in plugins, from configuration to localization.
+draft: false
+title: Common Examples
+slug: common-examples
 ---
 
 # Common Examples

@@ -67,9 +67,3 @@ public class HelloWorld : RustPlugin
 3. Restart your server or use the appropriate command to reload plugins.
 
 ***
-
-### Next Steps
-
-* Learn about **hooks**, **commands**, and **permissions**.
-* Explore the official [**Oxide API**](https://docs.oxidemod.com) or [**Carbon API**](https://docs.carbonmod.gg/docs).
-* Join the **Rust Modding Community** to ask questions and collaborate.

@@ -119,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Cobalt Studios`,
+        copyright: `Copyright © ${new Date().getFullYear()} Rust Modding Community. Rust Modding Community is not associated with Facepunch Studios, Carbon, or Oxide/uMod.`,
       },
       prism: {
         theme: prismThemes.github,
