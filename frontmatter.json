@@ -45,10 +45,7 @@
     {
       "title": "blog",
       "path": "[[workspace]]/blog"
-    },
-    {
-      "path": "[[workspace]]/blog"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": false
 }

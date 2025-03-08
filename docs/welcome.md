@@ -1,6 +1,9 @@
 ---
 slug: /
 sidebar_position: 1
+draft: false
+tags:
+  - guide
 ---
 
 # Welcome

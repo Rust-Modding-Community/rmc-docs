@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+draft: false
+tags:
+  - guide
 ---
 
 # Getting Started

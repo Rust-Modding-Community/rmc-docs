@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
-description: A well-structured plugin follows a logical order, making it easier to read, maintain, and extend. Below is the recommended structure for organizing your Rust plugin.
+description: A well-structured plugin follows a logical order, making it easier to read, maintain, and extend.
+tags:
+  - guide
 ---
 
 # Plugin Structure  

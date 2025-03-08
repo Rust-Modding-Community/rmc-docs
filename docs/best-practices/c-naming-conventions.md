@@ -1,6 +1,9 @@
 ---
 sidebar_position: 3
 description: Writing clean, readable code isn't just about functionality—it's about how easily others (and future you) can understand it.
+draft: false
+tags:
+  - guide
 ---
 
 # C# Naming Conventions  

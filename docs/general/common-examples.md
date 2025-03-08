@@ -4,6 +4,8 @@ description: This guide contains common things you will need to do in plugins, f
 draft: false
 title: Common Examples
 slug: common-examples
+tags:
+  - guide
 ---
 
 # Common Examples

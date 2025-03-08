@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+draft: false
+tags:
+  - guide
 ---
 
 # Rust Modding Resources
