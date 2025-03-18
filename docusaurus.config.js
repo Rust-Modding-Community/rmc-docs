@@ -118,8 +118,17 @@ const config = {
               },
             ],
           },
+          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Rust Modding Community. Rust Modding Community is not associated with Facepunch Studios, Carbon, or Oxide/uMod.`,
+      },
+      announcementBar: {
+        id: 'work_in_progress',
+        content:
+          'This site is a work in progress. Please report any issues on our Discord server.',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
       },
       prism: {
         theme: prismThemes.github,
