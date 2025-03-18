@@ -172,7 +172,7 @@ This makes it much easier to understand **what the code does at a glance**.
 
 ### Keep Functions Short and Focused
 
-Each function should do **one thing well**. If a function is too long or hard to read, break it into smaller helper functions. This will allow you to keep your code readable while not losing functionality.
+Each function should do **one thing well**. If a function is too long or hard to read, break it into smaller helper functions. This will allow you to keep your code readable while not losing functionality. With this in mind, a lot of developers only create additional functions if those functions will be reused somewhere else.
 
 ❌ **Bad Example:**
 
@@ -190,6 +190,12 @@ private void HandlePlayerJoin(BasePlayer player)
 }
 ```
 
+:::note[Don't just copy the code below]
+
+The example below is a good example of **improving readability**, but the functions are bullshit. 
+
+:::
+
 ✅ **Good Example:**
 
 ```csharp
@@ -204,7 +210,7 @@ private void HandlePlayerJoin(BasePlayer player)
 
 private void LogPlayerJoin(BasePlayer player)
 {
-    File.AppendAllText("logs.txt", $"{DateTime.UtcNow}: {player.UserIDString}\n");
+    Puts($"{DateTime.UtcNow}: {player.UserIDString}");
 }
 
 private void SendWelcomeMessage(BasePlayer player)
@@ -214,11 +220,8 @@ private void SendWelcomeMessage(BasePlayer player)
 
 private void NotifyAdmins(BasePlayer player)
 {
-    foreach (var admin in BasePlayer.activePlayerList)
-    {
-        if (!admin.IsAdmin) continue;
-        admin.ChatMessage($"[Admin] {player.displayName}");
-    }
+    if (!player.IsAdmin) return;
+    player.ChatMessage($"[Admin] {player.displayName}");
 }
 
 private void CheckForSuspiciousNames(BasePlayer player)

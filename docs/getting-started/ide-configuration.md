@@ -1,7 +1,6 @@
 ---
 sidebar_position: 4
 title: Configuring your IDE
-slug: configuring-ide
 draft: false
 tags:
     - guide
