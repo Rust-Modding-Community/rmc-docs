@@ -58,7 +58,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bubbafett5611/rmc-docs/tree/main',
+            'https://github.com/Rust-Modding-Community/rmc-docs/tree/main',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -95,13 +95,13 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://docs.oxidemod.com',
-            label: 'Oxide',
+            href: 'https://docs.carbonmod.gg',
+            label: 'Carbon',
             position: 'right',
           },
           {
-            href: 'https://docs.carbonmod.gg',
-            label: 'Carbon',
+            href: 'https://docs.oxidemod.com',
+            label: 'Oxide',
             position: 'right',
           },
         ],
