@@ -15,14 +15,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://rmc-docs.netlify.app',
+  url: 'https://rustmodding.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Bubbafett5611', // Usually your GitHub org/user name.
+  organizationName: 'Rust Modding Community', // Usually your GitHub org/user name.
   projectName: 'rmc-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -152,6 +152,11 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['csharp'],
+      },
+
+      colorMode: {
+        defaultMode: 'dark',  // Default theme can be 'light' or 'dark'
+        respectPrefersColorScheme: true,  // Automatically switch according to system preference
       },
     }),
 };
