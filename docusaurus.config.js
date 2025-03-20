@@ -127,7 +127,15 @@ const config = {
               },
             ],
           },
-          
+          {
+            title: 'Project',
+            items: [
+              {
+                label: 'Code of Conduct',
+                href: '/CODE_OF_CONDUCT',
+              },
+            ],
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Rust Modding Community. Rust Modding Community is not associated with Facepunch Studios, Carbon, or Oxide/uMod. This site is powered by <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a>.`,
       },
