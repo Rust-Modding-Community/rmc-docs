@@ -13,9 +13,9 @@ tags:
 
 Keep similar functionality in the same section of your file. For example, group all **event hooks**, **commands**, and **helper methods** separately to avoid confusion. For small plugins, comments can be more than enough to help you keep your sections straight.
 
-❌ **Bad Example:**
 
-```csharp
+
+```csharp title="❌ **Bad Example:**"
 private void OnPlayerConnected(BasePlayer player)
 {
     Puts($"{player.displayName} joined.");
@@ -41,7 +41,7 @@ private void HelloCommand(BasePlayer player, string command, string[] args)
 
 ✅ **Good Example:**
 
-```csharp
+```csharp title="✅ **Good Example:**"
 // Hooks
 private void OnPlayerConnected(BasePlayer player)
 {
