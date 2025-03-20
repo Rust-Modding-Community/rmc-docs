@@ -64,6 +64,6 @@ Before contributing, please review our [Code of Conduct](./CODE_OF_CONDUCT.md) a
 
 ## 💚 Powered by Netlify
 
-This site is proudly [powered by Netlify](https://www.netlify.com/.
+This site is proudly [powered by Netlify](https://www.netlify.com/).
 
 Thanks for being part of the Rust modding scene! 🛠️🔥
