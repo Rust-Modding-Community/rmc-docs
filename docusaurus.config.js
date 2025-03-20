@@ -47,7 +47,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           routeBasePath: '/',
           editUrl:
-            'https://github.com/bubbafett5611/rmc-docs/tree/main',
+            'https://github.com/Rust-Modding-Community/rmc-docs/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -79,8 +79,9 @@ const config = {
       navbar: {
         title: 'Rust Modding Community',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Rust Modding Community Logo',
+          src: 'img/LogoRMCDark.png', // default (light mode)
+          srcDark: 'img/LogoRMCLight.png', // for dark mode
         },
         items: [
           {
