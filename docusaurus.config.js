@@ -80,8 +80,8 @@ const config = {
         title: 'Rust Modding Community',
         logo: {
           alt: 'Rust Modding Community Logo',
-          src: 'img/LogoRMCDark.png', // default (light mode)
-          //srcDark: 'img/LogoRMCLight.png', // for dark mode
+          src: 'img/LogoRMCDark.svg',
+          srcDark: 'img/LogoRMCLight.svg',
         },
         items: [
           {
