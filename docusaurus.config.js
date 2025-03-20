@@ -132,7 +132,7 @@ const config = {
             items: [
               {
                 label: 'Code of Conduct',
-                href: '/CODE_OF_CONDUCT',
+                href: 'https://github.com/Rust-Modding-Community/rmc-docs/blob/main/CODE_OF_CONDUCT.md',
               },
             ],
           }
