@@ -5,7 +5,7 @@
 
 Welcome to the official documentation repository for the **Rust Modding Community** — a public resource aimed at helping developers create, maintain, and improve plugins for Rust using **Oxide/uMod** and **Carbon** frameworks.
 
-📚 **View the live site:** [https://rmc-docs.netlify.app](https://rmc-docs.netlify.app)
+📚 **View the live site:** [https://rustmodding.xyz](https://rustmodding.xyz)
 
 ---
 
