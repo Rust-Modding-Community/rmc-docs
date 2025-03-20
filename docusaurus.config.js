@@ -114,8 +114,9 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Cobalt Studios',
-                href: 'https://discord.gg/cobaltstudios',
+                label: 'Coming Soon',
+                href: '#',
+                //href: 'https://discord.gg/cobaltstudios',
               },
             ],
           },
@@ -125,6 +126,10 @@ const config = {
               {
                 label: 'Netlify',
                 href: 'https://www.netlify.com',
+              },
+              {
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io',
               },
             ],
           },
@@ -143,7 +148,7 @@ const config = {
       announcementBar: {
         id: 'work_in_progress',
         content:
-          'This site is a work in progress. Please report any issues on our Discord server.',
+          'This site is a work in progress. Please be patient as we continue to add more content.',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
