@@ -4,9 +4,5 @@
   "link": {
     "type": "generated-index",
     "description": "These pages contain best practices for creating plugins, editing existing plugins, and more.",
-    "link": { 
-      "type": "doc",
-      "id": "getting-started/getting-started" 
-    }
   }
 }
