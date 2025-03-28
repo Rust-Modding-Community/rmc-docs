@@ -1,0 +1,1 @@
+- give examples of oxide CUI with pictures

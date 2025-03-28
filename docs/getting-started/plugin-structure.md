@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 description: A well-structured plugin follows a logical order, making it easier to read, maintain, and extend.
 tags:
   - guide

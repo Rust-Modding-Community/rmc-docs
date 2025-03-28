@@ -1,5 +1,3 @@
-# CARBON FEATURES PLACEHOLDER
-
 - Link to carbon docs for each feature
   - Cool carbon command registering shit
   - async shutdown

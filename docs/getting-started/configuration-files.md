@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 description: This guide contains common things you will need to do in plugins, from configuration to localization.
 draft: false
 tags:
