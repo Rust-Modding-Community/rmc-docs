@@ -45,7 +45,6 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          path: 'docs',
           routeBasePath: '/',
           editUrl:
             'https://github.com/Rust-Modding-Community/rmc-docs/tree/main',
