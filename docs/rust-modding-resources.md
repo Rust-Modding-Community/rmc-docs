@@ -1,8 +1,8 @@
 ---
+sidebar_position: 10
 draft: false
 tags:
-  - resource
-title: Resources
+  - guide
 ---
 
 # Rust Modding Resources
