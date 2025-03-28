@@ -1,10 +1,3 @@
----
-sidebar_position: 10
-draft: false
-tags:
-  - guide
----
-
 # Rust Modding Resources
 
 ### Documentation

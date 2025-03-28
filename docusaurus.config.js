@@ -96,6 +96,11 @@ const config = {
             position: 'left'
           },
           {
+            to: '/resources',
+            label: 'Resources',
+            position: 'left'
+          },
+          {
             href: 'https://docs.carbonmod.gg',
             label: 'Carbon',
             position: 'right',
