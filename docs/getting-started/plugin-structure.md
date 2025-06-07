@@ -16,7 +16,7 @@ tags:
 5. **Commands** (Chat & Console Commands)  
 6. **Helper Methods** (Utility Functions)  
 
-:::note
+:::tip
 
 This order is only a suggestion! Everyone has preferences that help them read their own code.
 

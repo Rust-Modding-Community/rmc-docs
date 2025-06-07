@@ -1,11 +1,3 @@
----
-sidebar_position: 5
-description: This guide contains common things you will need to do in plugins, from configuration to localization.
-draft: false
-tags:
-  - guide
----
-
 # Configuration
 
 This guide will cover the following topics.

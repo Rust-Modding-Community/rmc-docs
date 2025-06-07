@@ -7,45 +7,54 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "sidebar_position",
-          "name": "sidebar_position",
-          "type": "number"
-        },
-        {
-          "title": "title",
+          "title": "Title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "draft",
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
           "name": "draft",
           "type": "draft"
         },
         {
-          "title": "tags",
+          "title": "Tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "description",
-          "name": "description",
-          "type": "string"
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     }
   ],
-  "frontMatter.framework.id": "docusaurus",
-  "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:3000",
   "frontMatter.content.pageFolders": [
     {
       "title": "docs",
       "path": "[[workspace]]/docs"
-    },
-    {
-      "title": "blog",
-      "path": "[[workspace]]/blog"
     }
   ],
-  "frontMatter.git.enabled": false
+  "frontMatter.preview.host": "http://localhost:5174",
+  "frontMatter.website.host": "http://localhost:5174",
+  "frontMatter.framework.startCommand": "npm run docs:dev",
+  "frontMatter.content.publicFolder": "",
+  "frontMatter.framework.id": "other"
 }
