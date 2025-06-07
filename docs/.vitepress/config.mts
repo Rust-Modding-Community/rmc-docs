@@ -35,7 +35,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Rust-Modding-Community/rmc-docs' }
     ],
     footer: {
       message: 'Released under GPL-3.0 license.',
