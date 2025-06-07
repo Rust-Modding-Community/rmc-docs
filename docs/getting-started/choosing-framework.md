@@ -2,7 +2,7 @@
 
 Choosing a framework depends on your goals, server setup, and preferred workflow. Here's a quick overview:
 
-| Feature                  | [**Carbon**](https://docs.carbonmod.gg/docs)                         | [**Oxide (uMod)**](https://docs.oxidemod.com)                          |
+| Feature                  | [**Carbon**](https://carbonmod.gg)                         | [**Oxide (uMod)**](https://docs.oxidemod.com)                          |
 |:--------------------------|:-------------------------------|:-------------------------------|
 | **License**               | GPL-3.0 license              | MIT license       |
 | **Primary Focus**         | Advanced Features, Performance   | Multigame Support   |
@@ -19,7 +19,7 @@ Plugins written for **Carbon** that use Carbon-specific features (such as module
 
 ## Pros and Cons of Each Framework
 
-### [Carbon](https://docs.carbonmod.gg/docs)
+### [Carbon](https://carbonmod.gg)
 
 **Pros**
 - Modern backend with performance optimizations.

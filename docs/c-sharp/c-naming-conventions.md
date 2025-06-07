@@ -1,11 +1,3 @@
----
-sidebar_position: 2
-description: Writing clean, readable code isn't just about functionality—it's about how easily others (and future you) can understand it.
-draft: false
-tags:
-  - guide
----
-
 # C# Naming Conventions  
 
 Writing clean, readable code isn't just about functionality—it's about **how easily others (and future you) can understand it**. Following **consistent naming conventions** makes your plugins more readable, easier to maintain, and less prone to errors. While the information outlined below is useful, every developer is different. Find what works best for you and go with it.

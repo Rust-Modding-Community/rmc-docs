@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  cleanUrls: true,
   title: "Rust Modding Community",
   description: "Framework independent modding documentation!",
   themeConfig: {
@@ -12,8 +13,8 @@ export default defineConfig({
       { text: 'Documentation', link: '/welcome' },
       { text: 'Frameworks', items:
         [
-          { text: 'Carbon', link: '/frameworks/carbon/carbon-features' },
-          { text: 'Oxide', link: '/frameworks/oxide/oxide-features' },
+          { text: 'Carbon', link: 'https://carbonmod.gg' },
+          { text: 'Oxide', link: 'https://docs.oxidemod.com' },
         ]
       }
     ],
@@ -21,7 +22,7 @@ export default defineConfig({
     sidebar: [
         { text: 'Getting Started',
           link: '/getting-started/getting-started',
-          collapsed: true,
+          collapsed: false,
           items: [
             {text: 'Choosing Your Framework', link: '/getting-started/choosing-framework' },
             { text: 'Configuring Your IDE', link: '/getting-started/ide-configuration'},
