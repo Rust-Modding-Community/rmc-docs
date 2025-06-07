@@ -10,12 +10,11 @@ Ready to get started?
 Here are some recommended next steps:
 - [**Choosing Your Framework**](/getting-started/choosing-framework) — Choose your developement framework.
 - [**Configuring Your IDE**](/getting-started/ide-configuration) — Set up Visual Studio or your editor for Rust plugin development.
-- [**Creating Your First Plugin**](/first-plugin) — A simple walkthrough for your first plugin.
-- [**Working with Configuration Files**](/configuration-files) — Learn how to save plugin settings.
-- [**Saving and Loading Data Files**](/data-files) — Best practices for handling server data.
-- [**Using Localization**](/localization) — Add multi-language support to your plugins.
-- [**Understanding Plugin Structure**](/plugin-structure) — Organize and standardize your plugin projects.
-- [**Troubleshooting and Debugging**](/troubleshooting) — Solve common development issues.
+- [**Working with Configuration Files**](/getting-started/configuration-files) — Learn how to save plugin settings.
+- [**Saving and Loading Data Files**](/getting-started/data-files) — Best practices for handling server data.
+- [**Using Localization**](/getting-started/localization) — Add multi-language support to your plugins.
+- [**Understanding Plugin Structure**](/getting-started/plugin-structure) — Organize and standardize your plugin projects.
+- [**Troubleshooting and Debugging**](/getting-started/troubleshooting) — Solve common development issues.
 
 ---
 
